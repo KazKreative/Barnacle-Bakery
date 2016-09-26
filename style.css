@@ -1,3 +1,97 @@
 body {
-	background: gray;
+	background: white;
 }
+#content1 {
+	text-align: center;
+}
+header{
+			width: 100%;
+			display: block;
+			background-color: #893825;
+			top:0px;
+			position: fixed;
+			height: 20%;
+			z-index: 10;
+			
+	
+		}
+
+		article{
+			margin-top: 200px;
+			 
+		}
+	
+		
+		
+		#page2{
+			margin-left: 20px;
+			display: inline-block;
+			font-size: 30px;
+		}
+
+		a{
+			color:  white; 
+			text-decoration: none;
+		}
+		a:visited{
+
+			color: #900000;
+
+		}
+		
+		
+		footer{
+			width: 100%;
+			display: block;
+			background-color:#893825;
+			bottom:0px;
+			position: fixed;
+			height: 10%;
+		}
+		#footerContent{
+			color: black;
+			height: 80%;
+			width:20%;
+			position: relative;
+			left: 40%;
+			
+		}
+
+		#img1{
+
+			width: 60%;
+			position: relative;
+			left: 40%;
+
+		}
+
+		@media all and (max-width: 900px){
+
+			.logo{
+				width:300px;
+				height: auto;
+			}
+			
+		}
+		@media all and (max-width: 630px){
+
+			
+			.logo{
+				width:200px;
+				height: auto;
+		}
+		@media all and (max-width: 720px){
+
+			menu{
+				width: 175px;
+			}
+			.logo{
+				width:100px;
+				height: auto;
+			}
+
+		}
+		
+
+
+
