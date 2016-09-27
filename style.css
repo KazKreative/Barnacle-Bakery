@@ -1,23 +1,20 @@
 body {
 	background: white;
 	margin-top: 20%;
+	height: 700px;
 }
 #content1 {
 	text-align: center;
-
-
-
-
-
-}
-#select1 {
-	border: solid 1px;
-	margin-left: 50%;
+	margin-bottom: 200px;
+	position: relative;
 	display: inline-block;
-	height: 40px;
-	width: 80px;
-	
+	float:left;
 }
+h1 {
+	text-align: center;
+	font-family: fantasy;
+}
+
 header{
 	width: 100%;
 	display: block;
@@ -26,34 +23,63 @@ header{
 	position: fixed;
 	height: 20%;
 	z-index: 10;
-			
-	
-		}
+	border-bottom-style: dotted;				
+}
+.image {
+    text-align: justify;
+}
+.thumbnail	{	
+  background: #d9ecd0;
+  float: left;
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  position:relative;
+  display: inline-block;	
+  float:left;
+  border: solid 1px;
+ margin-bottom: 200px;
+  margin-left: 130px;
+  margin-top: 100px;
+  hover
+}
 
+
+.thumbnail h5{
+  margin-bottom:0;
+  margin-left: 10px;
+  margin-right: auto;
+  border-bottom-style: solid;
+
+
+
+}
+
+.thumbnail img{
+   
+  
+  
+  height: 100px;
+  width: auto;
+  text-align: center;
+  margin-left: 35px;
+  margin-top: 15px;
+  text-align: center;
+   
+}
 article{
-	margin-top: 200px;
+	margin-top: 100px;
 	 
 }
-
-		
-
-#page2{
-	margin-left: 20px;
-	display: inline-block;
-	font-size: 30px;
+p{
+	text-align: center;
 }
-
-a{
-	color:  white; 
-	text-decoration: none;
-}
-a:visited{
+#visited{
 
 	color: #900000;
 
 }
-
-
 footer{
 	width: 100%;
 	display: block;
@@ -61,16 +87,21 @@ footer{
 	bottom:0px;
 	position: fixed;
 	height: 10%;
-
+	border-top-style: dotted;
+	clear: both;
+    position: relative;
+    z-index: 10;
+    height: 4em;
+   
 
 }
+
 #footerContent{
 	color: black;
 	height: 80%;
 	width:20%;
 	position: relative;
-	left: 40%;
-	
+	left: 40%;	
 }
 
 #img1{
@@ -78,7 +109,6 @@ footer{
 	width: 60%;
 	position: relative;
 	left: 40%;
-
 }
 
 @media all and (max-width: 900px){
@@ -106,7 +136,7 @@ footer{
 		height: auto;
 	}
 
-}
+
 
 
 
